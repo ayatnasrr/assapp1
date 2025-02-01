@@ -1,5 +1,3 @@
-# assapp1
-
 # 1. Vehicle Distribution Analysis
 
 
@@ -85,7 +83,7 @@ plt.xlabel('Traffic Situation')
 plt.ylabel('Total Vehicle Count')
 plt.show()
 
-9.Busiest Hours of the Day
+# 9.Busiest Hours of the Day
 
 df['Hour'] = pd.to_datetime(df['Time']).dt.hour
 
@@ -96,10 +94,3 @@ plt.title('Busiest Hours of the Day')
 plt.xlabel('Hour of the Day')
 plt.ylabel('Total Vehicle Count')
 plt.show()
-
-
-
-
-
-
-
